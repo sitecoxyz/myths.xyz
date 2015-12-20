@@ -33,7 +33,7 @@
   }
   .author_name {
     display: block;
-    color: #dce3ef;
+    color: #111;
     font-size: 3em;
     font-weight: 700;
     text-transform: lowercase;
@@ -42,8 +42,8 @@
   }
   .author_job {
     display: block;
-    color: #8d7edc;
-    font-size: 0.8em;
+    color: #222;
+    font-size: 1.8em;
     font-weight: 700;
     text-transform: uppercase;
     margin: -10px auto 20px;
@@ -51,6 +51,8 @@
   }
   .author_bio {
     display: block;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.6);
   }
   @include media-query($medium-screen) {
     margin: 0 auto;
