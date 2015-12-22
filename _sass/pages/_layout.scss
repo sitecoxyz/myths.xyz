@@ -28,9 +28,6 @@
     width: 100px;
     height: 100px;
     float: none;
-    @include media-query($medium-screen) {
-      display: none;
-    }
   }
   .author_name {
     display: block;
