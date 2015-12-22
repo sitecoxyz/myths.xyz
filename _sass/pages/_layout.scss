@@ -9,6 +9,7 @@
   z-index: 1;
   @include media-query($small-screen) {
     background-position: 0 30%;
+    background-size: cover;
     padding: 30px 50px;
     background-image: url("../img/sidebar-bg-s.jpg");
   }
