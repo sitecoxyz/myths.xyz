@@ -1,5 +1,5 @@
 ---
-title: "title: "Lysistrata"
+title: "Lysistrata"
 author: Aristophanes
 link: "lysistrata.myths.xyz"
 ---
