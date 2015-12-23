@@ -1,4 +1,7 @@
 /* LAYOUT CSS */
+div#p1{
+  overflow-y: hidden;
+}
 .cover {
   background-color: #454260;
   position: fixed;
@@ -6,13 +9,9 @@
   width: 100%;
   min-height: 400px;
   padding: 30px 20px 20px;
-  z-index: 1;
-  @include media-query($small-screen) {
-    background-position: 0 30%;
-    background-size: cover;
-    padding: 30px 50px;
-    background-image: url("../img/sidebar-bg-s.jpg");
-  }
+  overflow-y: scroll;
+  display:table;
+
   @include media-query($medium-screen) {
     background-image: url("../img/sidebar-bg.jpg");
     background-position: center bottom;
